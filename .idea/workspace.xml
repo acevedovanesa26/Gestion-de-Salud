@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c71d531a-70a0-40ba-8ad9-786d548f0abf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/.postcssrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/.prettierrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/public/assets/demo/code.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/public/assets/demo/demo.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/public/assets/demo/flags/flags.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/public/assets/demo/flags/flags_responsive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/public/assets/layout/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/public/assets/layout/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/public/assets/layout/_main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/public/assets/layout/_menu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/public/assets/layout/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/public/assets/layout/_preloading.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/public/assets/layout/_responsive.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/public/assets/layout/_topbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/public/assets/layout/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/public/assets/layout/_utils.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/public/assets/layout/layout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/public/assets/layout/variables/_common.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/public/assets/layout/variables/_dark.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/public/assets/layout/variables/_light.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/public/img/img_salud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/layout/component/app.configurator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/layout/component/app.floatingconfigurator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/layout/component/app.footer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/layout/component/app.layout.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/layout/component/app.menu.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/layout/component/app.menuitem.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/layout/component/app.sidebar.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/layout/component/app.topbar.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/layout/service/layout.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/auth/access.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/auth/auth.routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/auth/error.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/auth/login.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/crud/crud.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/dashboard/components/bestsellingwidget.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/dashboard/components/notificationswidget.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/dashboard/components/recentsaleswidget.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/dashboard/components/revenuestreamwidget.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/dashboard/components/statswidget.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/dashboard/dashboard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/documentation/documentation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/empty/empty.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/landing/components/featureswidget.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/landing/components/footerwidget.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/landing/components/herowidget.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/landing/components/highlightswidget.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/landing/components/pricingwidget.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/landing/components/topbarwidget.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/landing/landing.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/notfound/notfound.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/pages.routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/service/country.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/service/customer.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/service/icon.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/service/node.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/service/photo.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/service/product.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/uikit/buttondemo.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/uikit/chartdemo.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/uikit/filedemo.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/uikit/formlayoutdemo.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/uikit/inputdemo.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/uikit/listdemo.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/uikit/mediademo.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/uikit/menudemo.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/uikit/messagesdemo.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/uikit/miscdemo.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/uikit/overlaydemo.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/uikit/panelsdemo.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/uikit/tabledemo.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/uikit/timelinedemo.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/uikit/treedemo.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/pages/uikit/uikit.routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/assets/demo/code.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/assets/demo/demo.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/assets/demo/flags/flags.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/assets/demo/flags/flags_responsive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/assets/layout/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/assets/layout/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/assets/layout/_main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/assets/layout/_menu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/assets/layout/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/assets/layout/_preloading.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/assets/layout/_responsive.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/assets/layout/_topbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/assets/layout/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/assets/layout/_utils.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/assets/layout/layout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/assets/layout/variables/_common.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/assets/layout/variables/_dark.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/assets/layout/variables/_light.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/tailwind.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/proyecto-angular/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/proyecto-angular" beforeDir="false" afterPath="$PROJECT_DIR$/Front/proyecto-angular" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/proyecto-angular/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/Front/proyecto-angular/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/proyecto-angular/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Front/proyecto-angular/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/proyecto-angular/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Front/proyecto-angular/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/proyecto-angular/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/proyecto-angular/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/proyecto-angular/src/app/app.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/app.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/proyecto-angular/src/app/app.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/app/app.routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/proyecto-angular/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Front/proyecto-angular/src/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/proyecto-angular/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/Front/proyecto-angular/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-24/lib/src.zip!/java.base/java/lang/ExceptionInInitializerError.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2vRF25r7WAzkiDiRppGsDJrrmux" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.GestionDeSaludApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.gestiondesalud [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.gestiondesalud [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Feature/Juan&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/roy-j/OneDrive/Desktop/Protyecto Ucentral/GestionSalud&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="co.edu.ucentral.gestiondesalud.persistencia.entidades" />
+      <recent name="co.edu.ucentral.gestiondesalud.persistencia.servicios" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="GestionDeSaludApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.edu.ucentral.gestiondesalud.GestionDeSaludApplication" />
+      <module name="gestiondesalud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.edu.ucentral.gestiondesalud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Gestion-de-Salud" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GestionDeSaludApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c71d531a-70a0-40ba-8ad9-786d548f0abf" name="Changes" comment="" />
+      <created>1744099770874</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744099770874</updated>
+    </task>
+    <servers />
+  </component>
+</project>
