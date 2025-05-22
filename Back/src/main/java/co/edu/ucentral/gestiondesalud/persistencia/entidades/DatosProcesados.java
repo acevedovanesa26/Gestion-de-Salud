@@ -1,4 +1,3 @@
-// DatosProcesados.java
 package co.edu.ucentral.gestiondesalud.persistencia.entidades;
 
 import org.springframework.data.annotation.Id;
@@ -15,21 +14,20 @@ public class DatosProcesados {
     private String textoOriginal;
     private String textoProcesado;
     private Date fecha;
+    private String tema;
 
-    public Date getFecha() {
-        return fecha;
+    // Campos nuevos para el análisis de sentimiento
+    private String sentimiento;
+    private int score;
+
+    // --- Getters y Setters ---
+
+    public String getId() {
+        return id;
     }
 
-    public void setFecha(Date fecha) {
-        this.fecha = fecha;
-    }
-
-    public String getTextoProcesado() {
-        return textoProcesado;
-    }
-
-    public void setTextoProcesado(String textoProcesado) {
-        this.textoProcesado = textoProcesado;
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getTextoOriginal() {
@@ -40,12 +38,43 @@ public class DatosProcesados {
         this.textoOriginal = textoOriginal;
     }
 
-    public String getId() {
-        return id;
+    public String getTextoProcesado() {
+        return textoProcesado;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setTextoProcesado(String textoProcesado) {
+        this.textoProcesado = textoProcesado;
     }
-// Getters y setters
+
+    public Date getFecha() {
+        return fecha;
+    }
+
+    public void setFecha(Date fecha) {
+        this.fecha = fecha;
+    }
+
+    public String getTema() {
+        return tema;
+    }
+
+    public void setTema(String tema) {
+        this.tema = tema;
+    }
+
+    public String getSentimiento() {
+        return sentimiento;
+    }
+
+    public void setSentimiento(String sentimiento) {
+        this.sentimiento = sentimiento;
+    }
+
+    public int getScore() {
+        return score;
+    }
+
+    public void setScore(int score) {
+        this.score = score;
+    }
 }

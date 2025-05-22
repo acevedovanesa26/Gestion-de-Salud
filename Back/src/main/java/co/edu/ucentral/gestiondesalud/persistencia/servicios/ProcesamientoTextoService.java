@@ -24,20 +24,42 @@ public class ProcesamientoTextoService {
 
     public void procesarTweets() {
         List<DatosSaludTwitter> tweets = tweetRepository.findAll();
+        Set<String> textosExistentes = new HashSet<>();
+
+        // Cargar textos procesados existentes desde la BD
+        List<DatosProcesados> yaProcesados = mongoTemplate.findAll(DatosProcesados.class, "datos_procesados");
+        for (DatosProcesados dp : yaProcesados) {
+            if (dp.getTextoProcesado() != null) {
+                textosExistentes.add(dp.getTextoProcesado().trim().toLowerCase());
+            }
+        }
+
         List<DatosProcesados> procesados = new ArrayList<>();
 
         for (DatosSaludTwitter tweet : tweets) {
             String textoOriginal = tweet.getText();
             String limpio = limpiarTexto(textoOriginal);
-            DatosProcesados d = new DatosProcesados();
-            d.setTextoOriginal(textoOriginal);
-            d.setTextoProcesado(limpio);
-            d.setFecha(tweet.getCreatedAt() != null ? tweet.getCreatedAt() : new Date());
-            procesados.add(d);
+
+            String clave = limpio.trim().toLowerCase();
+            if (!textosExistentes.contains(clave)) {
+                DatosProcesados d = new DatosProcesados();
+                d.setTextoOriginal(textoOriginal);
+                d.setTextoProcesado(limpio);
+                d.setFecha(tweet.getCreatedAt() != null ? tweet.getCreatedAt() : new Date());
+                d.setTema(tweet.getTema());
+                procesados.add(d);
+                textosExistentes.add(clave); // también evitar duplicados dentro del mismo lote
+            }
         }
 
-        mongoTemplate.insert(procesados, "datos_procesados");
+        if (!procesados.isEmpty()) {
+            mongoTemplate.insert(procesados, "datos_procesados");
+            System.out.println("Insertados: " + procesados.size() + " nuevos documentos.");
+        } else {
+            System.out.println("No se insertaron nuevos documentos (todos duplicados).");
+        }
     }
+
 
     private String limpiarTexto(String texto) {
         // Eliminar URLs, menciones, signos, emojis
@@ -56,4 +78,5 @@ public class ProcesamientoTextoService {
         }
         return limpio.toString().trim();
     }
+
 }

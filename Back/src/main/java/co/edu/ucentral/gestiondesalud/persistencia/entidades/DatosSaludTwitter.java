@@ -18,8 +18,17 @@ public class DatosSaludTwitter {
     private List<String> keywords;
     private String sentiment;
     private Date createdAt;
+    private String tema;
 
     // Getters y Setters
+
+    public String getTema() {
+        return tema;
+    }
+
+    public void setTema(String tema) {
+        this.tema = tema;
+    }
 
     public String getId() {
         return id;

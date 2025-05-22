@@ -7,14 +7,13 @@ public class SentimientoEstadisticaDTO {
     private long neutros;
     private long total;
 
+
     public SentimientoEstadisticaDTO(long positivos, long negativos, long neutros) {
         this.positivos = positivos;
         this.negativos = negativos;
         this.neutros = neutros;
         this.total = positivos + negativos + neutros;
     }
-
-    // Getters y setters
 
     public long getPositivos() {
         return positivos;
@@ -47,4 +46,6 @@ public class SentimientoEstadisticaDTO {
     public void setTotal(long total) {
         this.total = total;
     }
+
+
 }

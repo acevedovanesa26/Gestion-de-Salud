@@ -5,6 +5,9 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
+import java.util.HashMap;
+import java.util.Map;
+
 @RestController
 @RequestMapping("/api/csv")
 public class CsvController {
@@ -16,19 +19,28 @@ public class CsvController {
     }
 
     @PostMapping("/upload")
-    public ResponseEntity<String> uploadCsv(
+    public ResponseEntity<Map<String, String>> uploadCsv(
             @RequestParam("file") MultipartFile file,
-            @RequestParam(value = "collection", defaultValue = "datos_kaggle") String collectionName) {
+            @RequestParam(value = "collection", defaultValue = "datos_kaggle") String collectionName,
+            @RequestParam("tema") String tema) {
+
+        Map<String, String> response = new HashMap<>();
 
         try {
             if (file.isEmpty() || !file.getOriginalFilename().toLowerCase().endsWith(".csv")) {
-                return ResponseEntity.badRequest().body("El archivo debe ser un CSV válido.");
+                response.put("message", "El archivo debe ser un CSV válido.");
+                return ResponseEntity.badRequest().body(response);
             }
 
-            csvService.saveDynamicCsv(file, collectionName);
-            return ResponseEntity.ok("Datos cargados correctamente en la colección: " + collectionName);
+            csvService.saveDynamicCsv(file, collectionName, tema);
+            response.put("message", "Datos cargados correctamente en la colección: " + collectionName);
+            return ResponseEntity.ok(response);
+
         } catch (Exception e) {
-            return ResponseEntity.internalServerError().body("Error al cargar el archivo CSV: " + e.getMessage());
+            response.put("message", "Error al cargar el archivo CSV: " + e.getMessage());
+            return ResponseEntity.internalServerError().body(response);
         }
     }
+
+
 }

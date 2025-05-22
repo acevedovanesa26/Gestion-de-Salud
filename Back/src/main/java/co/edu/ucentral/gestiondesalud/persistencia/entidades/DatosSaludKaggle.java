@@ -19,6 +19,7 @@ public class DatosSaludKaggle {
     private List<String> keywords;
     private String sentiment;
     private Date createdAt;
+    private String tema;
 
     // Getters y Setters
 
@@ -84,5 +85,13 @@ public class DatosSaludKaggle {
 
     public void setCreatedAt(Date createdAt) {
         this.createdAt = createdAt;
+    }
+
+    public String getTema() {
+        return tema;
+    }
+
+    public void setTema(String tema) {
+        this.tema = tema;
     }
 }

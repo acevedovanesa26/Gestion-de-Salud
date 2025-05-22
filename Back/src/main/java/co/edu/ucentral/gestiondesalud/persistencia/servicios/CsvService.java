@@ -18,11 +18,11 @@ public class CsvService {
 
     @Autowired
     private MongoTemplate mongoTemplate;
-    public void saveDynamicCsv(MultipartFile file, String collectionName) {
+    public void saveDynamicCsv(MultipartFile file, String collectionName, String tema) {
         try (
                 BufferedReader reader = new BufferedReader(new InputStreamReader(file.getInputStream(), StandardCharsets.UTF_8));
                 CSVParser parser = CSVFormat.DEFAULT
-                        .withDelimiter(';') // <--- CAMBIO CLAVE AQUÍ
+                        .withDelimiter(';')
                         .withFirstRecordAsHeader()
                         .parse(reader)
         ) {
@@ -31,8 +31,9 @@ public class CsvService {
             for (CSVRecord record : parser) {
                 Map<String, Object> document = new LinkedHashMap<>();
                 for (String header : parser.getHeaderMap().keySet()) {
-                    document.put(header.trim(), record.get(header).trim()); // Opcional: limpiar espacios
+                    document.put(header.trim(), record.get(header).trim());
                 }
+                document.put("tema", tema); // 👈 Aquí agregamos el campo extra
                 documents.add(document);
             }
 
@@ -42,5 +43,6 @@ public class CsvService {
             throw new RuntimeException("Error procesando el archivo CSV: " + e.getMessage(), e);
         }
     }
+
 
 }

@@ -16,7 +16,15 @@ public class ResultadoSentimiento {
     private String sentimiento;
     private int score;
     private Date fecha;
+    private String tema;
 
+    public String getTema() {
+        return tema;
+    }
+
+    public void setTema(String tema) {
+        this.tema = tema;
+    }
     // Getters y setters
 
     public Date getFecha() {
